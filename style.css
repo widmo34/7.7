@@ -1,0 +1,362 @@
+body{
+   background-color: #fff;
+   margin: 0;
+   padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+  
+}
+
+.jumbotron{
+    width: 100%;
+    max-width: 1400px;;
+   
+    background-image: url('images/Background_Imagebanner.jpg');
+    background-position: center;
+    background-size: cover;
+  
+}
+
+.header-menu{
+    margin: 0 15% 15%; 
+}
+
+.header-menu img{
+    margin-top: 15px;
+}
+
+.menu  {
+	list-style-type: none;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.menu li {
+    display: inline-block;
+}  
+
+.menu li  a {
+	padding-left: 20px;
+	color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slogan{
+    text-align: center;
+}
+
+.slogan h1{
+    font-size: 75px;
+    color: #fff;
+}
+
+.slogan h3{
+    font-size: 40px;
+    font-style: italic;
+    color: #fff;
+    margin-top: 80px;
+} 
+ 
+.button{
+    margin: 0 auto;
+    width: 240px;
+    height: 65px;
+    background-color: #fed136;
+    padding-top: 10px;
+    margin-bottom: 160px;
+  
+}
+
+.button-p {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.services{
+  height: 300px;
+ 
+}
+
+.serv-name{
+    text-align: center;
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "S, ervices" */
+    letter-spacing: -1px;
+    margin-top: 120px;
+  
+   
+    }
+
+.serv-blockquote{
+    text-align: center;
+    /* Style for "Proin iacu" */
+    color: #777777;
+    font-family: "Droid Serif";
+    font-size: 14px;
+    font-style: italic;
+    margin-top: -20px;
+}
+
+.circle{
+    width: 68px;
+    height: 67px;
+    border: 1px solid #fed136;
+    margin: 0 auto;
+    
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.eco{
+    text-align: center;
+}
+.port{
+    text-align: center;
+}
+
+.port-name{
+    text-align: center;
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-top: 20px;
+  
+   
+    }
+
+.port-blockquote{
+    text-align: center;
+    color: #777777;
+    font-family: "Droid Serif";
+    font-size: 16px;
+    font-style: italic;
+    margin-top: -15px;
+}
+
+
+.show{/* Style for "E-Commerce" */
+  
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 75px;
+    /* Text style for "E, -Commer" */
+    letter-spacing: -0.45px;
+}
+
+.section{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.about-left img{
+    float:left;
+    margin-right: 30px;
+}
+
+
+
+.about-left p{
+    text-align: left;
+    /* Style for "Proin iacu" */
+    color: #777777;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    /* Text style for "P, roin ia" */
+    letter-spacing: -0.35px;
+}
+
+.about-left h3{
+    text-align: left;
+    /* Style for "July 2010" */
+    
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    /* Text style for "J, uly 201" */
+    letter-spacing: -0.45px;
+    text-transform: uppercase;
+    /* Text style for "Our Humble" */
+    letter-spacing: -0.45px;
+}
+
+.about-right img{
+    float:right;
+    margin-left: 30px
+}
+
+.about-right p{
+    text-align: right;
+    /* Style for "Proin iacu" */
+    color: #777777;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    /* Text style for "P, roin ia" */
+    letter-spacing: -0.35px;
+}
+
+.about-right h3{
+    text-align: right;
+    /* Style for "July 2010" */
+    
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    /* Text style for "J, uly 201" */
+    letter-spacing: -0.45px;
+    text-transform: uppercase;
+    /* Text style for "Our Humble" */
+    letter-spacing: -0.45px;
+}
+
+.about{
+    margin-bottom: 106px;
+}
+
+.amazing{
+    /* Style for "our amazin" */
+    text-align: center;
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "o, ur amaz" */
+    letter-spacing: -2px;
+    margin-top: 245px;
+}
+
+.yellow-circle{/* Style for "Container" */
+    width: 170px;
+    height: 170px;
+    border: 7px solid #f1f1f1;
+    background-color: #fed136;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.yellow-circle p {
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "O, ur , St" */
+    letter-spacing: -0.45px;
+}
+
+.black{
+    width: 221px;
+    height: 221px;
+    background-color: #222222;
+    border-radius: 100px;
+}
+
+.team{
+    margin-top:124px;
+}
+
+
+
+
+.row::before,
+.row::after{
+    content: "";
+    display: table;
+    clear: both
+}
+
+[class*='col-']{
+    float: left;
+    min-height: 1px;
+    padding: 12px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.col-offset-0 {margin-left: 0;}
+.col-offset-1 {margin-left: 8.33%;}
+.col-offset-2 {margin-left: 16.66%;}
+.col-offset-3 {margin-left: 25%;}
+.col-offset-4 {margin-left: 33.33%;}
+.col-offset-5 {margin-left: 41.66%;}
+.col-offset-6 {margin-left: 50%;}
+.col-offset-7 {margin-left: 58.33%;}
+.col-offset-8 {margin-left: 66.66%;}
+.col-offset-9 {margin-left: 75%;}
+.col-offset-10 {margin-left: 83.33%;}
+.col-offset-11 {margin-left: 91.66%;}
+
+
+@media (max-width: 576px){
+
+.menu li {display: block; }
+.menu {display: block; float: none;}
+.header-menu{display: block; text-align: center; float: none; margin: 0}
+.header-img {border:1 px saddlebrown}
+.menu li a {padding: 0;}
+
+.about-left img {float:none; display: block; }
+.about-left p  {text-align: center}
+.about-left h3  {text-align: center}
+    
+.about-right img {float:none; display: block}
+.about-right p  {text-align: center}
+.about-right h3  {text-align: center}
+
+.col-s-offset {margin: 0 auto;}
+    
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+
+}
