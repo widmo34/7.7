@@ -88,7 +88,7 @@ body{
 }
 
 .services{
-  height: 300px;
+  /*! height: 400px; */
  
 }
 
@@ -279,12 +279,205 @@ body{
     height: 221px;
     background-color: #222222;
     border-radius: 100px;
+    margin: 0 auto;
 }
 
+.teamContent{
+    text-align: center;
+    margin: 0 auto;
+}
 .team{
-    margin-top:124px;
+color: #222222;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+/* Text style for "K, imberly" */
+font-family: "Montserrat - Bold";
+font-weight: 700;
+letter-spacing: -0.4px;
+line-height: 50px;
+
 }
 
+.team-p{
+
+/* Text style for "Marketer" */
+color: #777777;
+font-family: "Roboto Slab";
+font-size: 14px;
+font-weight: 400;
+letter-spacing: -0.35px; 
+margin-top: -30px;
+}
+
+.circle-team{
+display: inline-block;
+width: 41px;
+height: 41px;
+border: 3px solid #222222;
+background-color: #f9f9f9;
+border-radius: 100%;
+}
+
+.icons{
+    margin-top: -35px;
+}
+
+.twitter{
+    background-image: url('images/Twitter.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.facebook{
+    background-image: url('images/Facebook.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.google{
+    background-image: url('images/Google+.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pinterest{
+    background-image: url('images/Pinterest.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.team-text{
+    text-align: center;
+    margin: 0 auto;
+    /* Style for "Proin iacu" */
+    width: 50%;
+    color: #777777;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: 400;
+    /* Text style for "P, roin ia" */
+    letter-spacing: -0.4px;
+    line-height: 25px;
+    }
+
+.logos {
+   margin-top: 200px;
+   text-align: center;
+}
+
+.map{
+    height: 677px;
+    background-color: #222222;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.map img{
+    width: 1114px;
+    height: 646px;
+    opacity: 0.3;
+    position: absolute;
+    top:20%;
+    left:60%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.map-p {
+    text-align: center;
+    /* Style for "Contact us" */
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "C, ontact" */
+    letter-spacing: -1px;    
+  
+    position: relative;
+    }
+
+.map-slogan{
+    text-align: center;
+    color: #777777;
+    font-family: "Droid Serif";
+    font-size: 16px;
+    font-style: italic;
+    margin-top: -30px;
+} 
+
+.map form{
+    position: relative;
+    top: 10%;
+    left: 15%;
+}
+
+.map input {
+    /* Style for "Your Name" */
+    width: 455px;
+    height: 50px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    margin-top: 30px;
+    padding-left: 10px;
+  
+}
+
+.map textarea{
+    position: relative;
+    left: 500px;
+    /* Style for "Your Messa" */
+    width: 456px;
+    height: 210px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    bottom:210px;
+}
+
+.form-button{
+    width: 240px;
+    height: 66px;
+    background-color: #fed136;
+    position: relative;
+    bottom: 100px;
+    right: 105px;
+
+    /* Style for "Send Messa" */
+  
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.icons-bottom{
+    text-align: center;
+}
+
+.text-bottom{
+    /* Style for "© Copyrigh" */
+  
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    /* Text style for "© Copyrigh" */
+    letter-spacing: -0.35px;
+}
+
+.footer-black{
+ 
+    width: 41px;
+    height: 42px;
+    background: #222222;
+    border-radius: 100%;
+    padding-top: 12px;
+}
 
 
 
@@ -328,7 +521,7 @@ body{
 .col-offset-11 {margin-left: 91.66%;}
 
 
-@media (max-width: 576px){
+@media (max-width: 756px){
 
 .menu li {display: block; }
 .menu {display: block; float: none;}
@@ -343,8 +536,11 @@ body{
 .about-right img {float:none; display: block}
 .about-right p  {text-align: center}
 .about-right h3  {text-align: center}
-
-.col-s-offset {margin: 0 auto;}
+.map form{}
+.map textarea{width:70%; height:400px; position: static; top:0; left: 0}
+.map input {width: 70%}
+.map button {position: static; width: 70%; top:0; left: 0;}
+.map img{display: none}
     
 .col-s-1 {width: 8.33%;}
 .col-s-2 {width: 16.66%;}
