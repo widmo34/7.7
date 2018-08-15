@@ -369,21 +369,10 @@ border-radius: 100%;
 .map{
     height: 677px;
     background-color: #222222;
-    margin-top: 100px;
-    position: relative;
-    overflow: hidden;
-    margin-top: 15px;
-}
-
-.map img{
-    width: 1114px;
-    height: 646px;
-    opacity: 0.3;
-    position: absolute;
-    top:20%;
-    left:60%;
-    overflow: hidden;
-    z-index: 1;
+    background-image:url('images/Map_Image.png');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 240% 90%;
 }
 
 .map-p {
@@ -409,49 +398,41 @@ border-radius: 100%;
     margin-top: -30px;
 } 
 
-.map form{
-    position: relative;
-    top: 10%;
-    left: 15%;
-}
+
 
 .map input {
     /* Style for "Your Name" */
-    width: 455px;
+    width: 70%;
     height: 50px;
     border: 1px solid #cccccc;
     background-color: #ffffff;
-    margin-top: 30px;
+    margin-bottom: 30px;
     padding-left: 10px;
   
+    float: right;
 }
 
 .map textarea{
-    position: relative;
-    left: 500px;
-    /* Style for "Your Messa" */
-    width: 456px;
     height: 210px;
     border: 1px solid #cccccc;
     background-color: #ffffff;
-    bottom:210px;
+    /*! bottom:210px; */
+    width: 70%;
+    float: left;
 }
 
 .form-button{
-    width: 240px;
+    width: 20%;
     height: 66px;
     background-color: #fed136;
-    position: relative;
-    bottom: 100px;
-    right: 105px;
-
-    /* Style for "Send Messa" */
+  
   
     color: #ffffff;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
+   
 }
 
 .icons-bottom{
@@ -505,7 +486,7 @@ border-radius: 100%;
 .col-9 {width: 75%;}
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-12 {width: 100%;text-align: center;}
 
 .col-offset-0 {margin-left: 0;}
 .col-offset-1 {margin-left: 8.33%;}
@@ -536,11 +517,11 @@ border-radius: 100%;
 .about-right img {float:none; display: block}
 .about-right p  {text-align: center}
 .about-right h3  {text-align: center}
-.map form{}
-.map textarea{width:70%; height:400px; position: static; top:0; left: 0}
-.map input {width: 70%}
-.map button {position: static; width: 70%; top:0; left: 0;}
-.map img{display: none}
+
+.map input {float:none;}
+.map textarea {float:none;}
+
+
     
 .col-s-1 {width: 8.33%;}
 .col-s-2 {width: 16.66%;}
