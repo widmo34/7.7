@@ -51,6 +51,9 @@ body{
     display: block;
     font-family: 'Montserrat', sans-serif;
 }
+.menu li  a:hover {
+     color: #b2b2b2;
+}
 
 .slogan{
     text-align: center;
@@ -75,7 +78,14 @@ body{
     background-color: #fed136;
     padding-top: 10px;
     margin-bottom: 160px;
-  
+}
+
+.button:hover{
+   cursor: pointer;
+}
+
+.button p:hover{
+    color: black;
 }
 
 .button-p {
@@ -172,73 +182,16 @@ body{
     margin: 0 auto;
 }
 
-.about-left img{
-    float:left;
-    margin-right: 30px;
-}
 
 
 
-.about-left p{
-    text-align: left;
-    /* Style for "Proin iacu" */
-    color: #777777;
-    font-family: "Roboto Slab";
-    font-size: 14px;
-    font-weight: 400;
-    /* Text style for "P, roin ia" */
-    letter-spacing: -0.35px;
-}
 
-.about-left h3{
-    text-align: left;
-    /* Style for "July 2010" */
-    
-    color: #222222;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 700;
-    /* Text style for "J, uly 201" */
-    letter-spacing: -0.45px;
-    text-transform: uppercase;
-    /* Text style for "Our Humble" */
-    letter-spacing: -0.45px;
-}
 
-.about-right img{
-    float:right;
-    margin-left: 30px
-}
 
-.about-right p{
-    text-align: right;
-    /* Style for "Proin iacu" */
-    color: #777777;
-    font-family: "Roboto Slab";
-    font-size: 14px;
-    font-weight: 400;
-    /* Text style for "P, roin ia" */
-    letter-spacing: -0.35px;
-}
 
-.about-right h3{
-    text-align: right;
-    /* Style for "July 2010" */
-    
-    color: #222222;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 700;
-    /* Text style for "J, uly 201" */
-    letter-spacing: -0.45px;
-    text-transform: uppercase;
-    /* Text style for "Our Humble" */
-    letter-spacing: -0.45px;
-}
 
-.about{
-    margin-bottom: 106px;
-}
+
+
 
 .amazing{
     /* Style for "our amazin" */
@@ -318,6 +271,10 @@ border: 3px solid #222222;
 background-color: #f9f9f9;
 border-radius: 100%;
 }
+.circle-team:hover{
+   background-color: #000;
+   cursor: pointer;
+}
 
 .icons{
     margin-top: -35px;
@@ -328,6 +285,7 @@ border-radius: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
+
 
 .facebook{
     background-image: url('images/Facebook.png');
@@ -367,12 +325,13 @@ border-radius: 100%;
 }
 
 .map{
-    height: 677px;
+    
     background-color: #222222;
     background-image:url('images/Map_Image.png');
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: 240% 90%;
+    text-align: center;
 }
 
 .map-p {
@@ -422,17 +381,19 @@ border-radius: 100%;
 }
 
 .form-button{
-    width: 20%;
     height: 66px;
     background-color: #fed136;
-  
-  
     color: #ffffff;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-   
+}
+
+.form-button:hover{
+     color: black;
+     cursor: pointer;
+         
 }
 
 .icons-bottom{
@@ -452,12 +413,16 @@ border-radius: 100%;
 }
 
 .footer-black{
- 
     width: 41px;
     height: 42px;
     background: #222222;
     border-radius: 100%;
     padding-top: 12px;
+}
+
+.footer-black:hover{
+     background: #000;
+    cursor: pointer;
 }
 
 
@@ -486,7 +451,7 @@ border-radius: 100%;
 .col-9 {width: 75%;}
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
-.col-12 {width: 100%;text-align: center;}
+.col-12 {width: 100%;}
 
 .col-offset-0 {margin-left: 0;}
 .col-offset-1 {margin-left: 8.33%;}
@@ -502,6 +467,30 @@ border-radius: 100%;
 .col-offset-11 {margin-left: 91.66%;}
 
 
+.about-left{
+    padding-left: 44%;
+    text-align: left;
+    padding-right: 18%;
+    margin-bottom: 106px;
+}
+
+.about-left img {
+  float: left;
+  margin-right:20px;
+}
+/* ################################### */
+.about-right{
+    padding-right: 44%;
+    text-align: right;
+    padding-left: 18%;
+    margin-bottom: 106px;
+}
+
+.about-right img {
+  float: right;
+  margin-left:20px;
+}
+
 @media (max-width: 756px){
 
 .menu li {display: block; }
@@ -509,14 +498,13 @@ border-radius: 100%;
 .header-menu{display: block; text-align: center; float: none; margin: 0}
 .header-img {border:1 px saddlebrown}
 .menu li a {padding: 0;}
+.about-left{padding: 0; text-align: center; margin: 0; float:none;}
+.about-left img {float:none;}
 
-.about-left img {float:none; display: block; }
-.about-left p  {text-align: center}
-.about-left h3  {text-align: center}
-    
-.about-right img {float:none; display: block}
-.about-right p  {text-align: center}
-.about-right h3  {text-align: center}
+.about-right{padding: 0; text-align: center; margin: 0; float:none;}
+.about-right img {float:none;}
+
+
 
 .map input {float:none;}
 .map textarea {float:none;}
