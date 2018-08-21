@@ -425,6 +425,10 @@ border-radius: 100%;
     cursor: pointer;
 }
 
+.helperovh{
+    overflow: hidden;
+}
+
 
 
 .row::before,
